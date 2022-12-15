@@ -1,0 +1,4 @@
+дек. 07, 2022 11:48:22 AM L2E4_logger main
+WARNING: Test logging 1
+дек. 07, 2022 11:48:22 AM L2E4_logger main
+INFO: Test logging 2

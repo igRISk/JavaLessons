@@ -6,6 +6,7 @@
 
 
 import java.util.Random;
+
 public class S1_Homework_01_RandInt {
     public static void main(String[] args) {
         int i = getRandomInt(-1000, 1001);
@@ -16,7 +17,7 @@ public class S1_Homework_01_RandInt {
         int[] m2 = notMultiples(Short.MIN_VALUE, i, n);
         printArray(m2);
         System.out.println("i (random from -1000 to 1000) = " + i);
-        System.out.println("n(MSB) = " + n);
+        System.out.println("n (MSB) = " + n);
         printArray(m1);
     }
     

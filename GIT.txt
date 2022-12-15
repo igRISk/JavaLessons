@@ -1,0 +1,5 @@
+git add .
+git commit -m "Lection 00 + Seminar 00 + Homework"
+git push -u origin main
+
+git remote add origin https://github.com/igRISk/JavaLessons.git
