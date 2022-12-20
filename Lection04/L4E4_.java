@@ -1,6 +1,6 @@
-package Seminar03;
+package Lection04;
 
-public class S3T3_ {
+public class L4E4_ {
     public static void main(String[] args) {
         
     }

@@ -1,5 +1,3 @@
-package Seminar03;
-
 import java.util.List;
 import java.util.Random;
 import java.util.ArrayList;
@@ -68,6 +66,7 @@ public class S3T1_ArrayListIteratorComparator {
         ListIterator<Integer> iterator2 = array2.listIterator(args.length);
         while (iterator2.hasPrevious()) {
             Integer i = iterator2.previous();
+            if (i < 50) iterator2.remove();
             System.out.printf("%d ", i);
         }
 
@@ -80,7 +79,6 @@ public class S3T1_ArrayListIteratorComparator {
                 return integer - t1;
             }
         };
-
         array2.sort(c);
         System.out.println(array2);
     }

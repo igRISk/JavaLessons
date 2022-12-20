@@ -28,7 +28,7 @@
 
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.List;
 
 public class S3_Homework_03_ {
     public static void main(String[] args) {
@@ -61,6 +61,8 @@ public class S3_Homework_03_ {
         colorlist2.add(colorlist.get(3));
         colorlist2.add(colorlist.get(5));
         System.out.println(colorlist2);
+        List colorlist3 = colorlist.subList(2, 5);
+        System.out.println(colorlist3);
 // Задача 9:
         colorlist.add("red");
         colorlist.add("indigo");
